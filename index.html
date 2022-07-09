@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Flexbox</title>
+
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+<!-- 
+  /* home <i class="ph-house-fill"></i> */
+
+/* mail <i class="ph-envelope"></i> */
+
+/* bell <i class="ph-bell-bold"></i> */
+
+/* twitter <i class="ph-twitter-logo-bold"></i> */
+
+/* search <i class="ph-magnifying-glass-bold"></i> */ -->
+
+  <div class="app">
+    <header class="main-header">
+      <div class="content">
+        <nav>
+          <ul>
+            <li><i class="ph-house-fill"></i>Home</li>
+            <li><i class="ph-bell-bold"></i>Notifications</li>
+            <li><i class="ph-envelope"></i>Messages</li>
+          </ul>
+        </nav>
+        <i class="ph-twitter-logo-fill" style="color: #3bb9e3"></i>
+        <div class="side">
+          <div class="input-field">
+            <input type="text" placeholder="Search on twitter">
+            <i class="ph-magnifying-glass-bold" ></i>
+          </div>
+          
+          <img src="https://github.com/alanvitalp.png" alt="user-profile image"/>
+          <button>Tweet</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+    </div>
+
+    <div class="bar">
+      <div class="content">
+        <ul>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>999</strong>
+          </li>
+          <li>
+            <span>Followings</span>
+            <strong>999</strong>
+          </li>
+          <li>
+            <span>Followers</span>
+            <strong>999</strong>
+          </li>
+          <li>
+            <span>Favorites</span>
+            <strong>999</strong>
+          </li>
+        </ul>
+  
+        <div class="actions">
+          <button>
+            Follow
+          </button>
+          <i class="ph-dots-three-vertical-fill"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-content content">
+      <aside class="profile">
+        <img src="https://github.com/alanvitalp.png" class="avatar"/>
+        <h1>Alan Vital</h1>
+        <span>@alanvitalp</span>
+
+        <p>Developer At @Instituto Atlântico</p>
+
+        <ul>
+          <li><i class="ph-map-pin-fill"></i>Fortaleza, Ceará</li>
+        </ul>
+
+        <div class="widget followers">
+          <strong><i class="ph-users-fill"></i>999 followers that you know</strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+        </div>
+
+        <div class="widget images">
+          <strong><i class="ph-users-fill"></i>999 photos and videos</strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </aside>
+      <section class="timeline">
+        <nav>
+          <a href="" class="active">Tweets</a>
+          <a href="" class="">Tweets and Replies</a>
+          <a href="" class="">Medias</a>
+        </nav>
+
+        <ul class="tweets">
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="https://github.com/alanvitalp.png" alt=""/>
+            <div class="info">
+              <strong>
+                Alan Vital <span>@alanvitalp</span>
+              </strong>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+                lorem ipsum dolor sit amet, consectetur adip
+              </p>
+
+              <div class="actions">
+                <i class="ph-chat-circle">999</i>
+                <i class="ph-arrows-clockwise-fill">999</i>
+                <i class="ph-heart">999</i>
+                <i class="ph-envelope"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong>Who to follow</strong>
+            <a href="">Refresh</a>
+            <a href="">View all</a>
+          </div>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="https://github.com/alanvitalp.png" alt="" class="">
+                <div class="info">
+                  <strong>user_unknown 
+                    <span class="">
+                      @user_unknown
+                    </span>
+                    <button>Follow</button>
+                </strong>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+
+            <li>
+              <div class="profile">
+                <img src="https://github.com/alanvitalp.png" alt="" class="">
+                <div class="info">
+                  <strong>user_unknown 
+                    <span class="">
+                      @user_unknown
+                    </span>
+                    <button>Follow</button>
+                </strong>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+
+            <li>
+              <div class="profile">
+                <img src="https://github.com/alanvitalp.png" alt="" class="">
+                <div class="info">
+                  <strong>user_unknown 
+                    <span class="">
+                      @user_unknown
+                    </span>
+                    <button>Follow</button>
+                </strong>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+          </ul>
+        </div>
+        <div class="widget trends">
+
+        </div>
+      </aside>
+    </div>
+</body>
+</html>
